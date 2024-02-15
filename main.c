@@ -30,7 +30,6 @@ struct pathData{
     int *listPred;
 };
 
-
 /*------------------ D E C L A R A T I O N S ---------------*/
 
 int **AfficherMatriceAdjacence(struct Graphe *G);
@@ -50,11 +49,7 @@ int* show_succ(int** matrice, int noeud, int nbrSommet);
 Graphe* ConvertirMatriceVersListe(Graphe* G, int** matrice, int taille);
 int menu();
 
-
-
-
 /*---------------------- F O N C T I O N S-------------------*/
-
 
 /**
  * Fonction qui permet l'ajout d'un nouveau sommet au graphe
